@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="card">
+        <form #formSign="ngForm" (ngSubmit)="addUser(formSign)">
+            <h3>SIGN UP</h3>
+            <label>Name*</label>
+            <input type="text" name="name" placeholder="username" [(ngModel)]="userService.selectedUser.name" ngModel required>
+            <label>Email*</label>
+            <input type="email" name="email" placeholder="email" [(ngModel)]="userService.selectedUser.email" ngModel required>
+            <label>Password*</label>
+            <input type="password" name="password" placeholder="password" [(ngModel)]="userService.selectedUser.password" ngModel required>
+            <button type="submit" class="btn btn-primary" [disabled]="formSign.invalid">SignUp</button>
+        </form>
+    </div>
+</div>

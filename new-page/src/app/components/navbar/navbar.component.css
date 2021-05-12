@@ -1,0 +1,32 @@
+.navbar {
+    height: 10rem;
+    width: 100%;
+    background: #4b809c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f2fcfe, #4b809c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f2fcfe, #4b809c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a {
+    color: black !important;
+    font-size: 34px;
+    font-family: monospace;
+}
+
+.container1 {
+    width: 100% !important;
+}
+
+.navbar-brand {
+    padding: 10rem;
+}
+
+.collapse {
+    padding: 12rem;
+}
+
+.nav-link {
+    margin-left: 40px;
+}

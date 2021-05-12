@@ -1,0 +1,43 @@
+body {
+    background: #e9e7e7;
+}
+
+.container1 {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    background: var(--formcolor);
+    margin: 0 auto;
+    margin-top: 10rem;
+    border-radius: 5px;
+    margin-bottom: 10rem;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(147, 181, 199, 0.91);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(147, 181, 199, 0.91);
+    box-shadow: 0px 0px 17px 0px rgba(147, 181, 199, 0.91);
+}
+
+.card1 {
+    position: absolute;
+    width: 14rem;
+    height: 11rem;
+    background: transparent;
+    margin: 50px 0px 0px 50px;
+    border-radius: 5px;
+}
+
+.form1 {
+    width: 11rem;
+    position: relative;
+}
+
+input {
+    margin-top: 3px;
+    margin-bottom: 35px;
+    width: 220px;
+}
+
+button {
+    float: right;
+    margin-right: 35px;
+    transform: scale(1.3);
+}

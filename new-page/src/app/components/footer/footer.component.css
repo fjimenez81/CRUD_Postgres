@@ -1,0 +1,12 @@
+.container1 {
+    width: 100% !important;
+    height: 15vh;
+    padding: 50px;
+    background: #4b809c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f2fcfe, #4b809c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f2fcfe, #4b809c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+}
